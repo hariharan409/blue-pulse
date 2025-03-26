@@ -2,7 +2,7 @@ require('module-alias/register');
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
-const mainRouter = require("@/routes/mainRouter.js");
+const mainRouter = require("@/routes/main.router");
 
 const app = express();
 const PORT = process.env.APP_PORT;
