@@ -1,0 +1,7 @@
+
+
+@use '@/styles/_variables' as *;
+@use '@/styles/reset' as *;      // Optional CSS reset
+@use '@/styles/layout' as *;     // Grid, flex, page wrappers
+@use '@/styles/components' as *; // Buttons, cards, modals, etc.
+@use '@/styles/screens' as *;    // SCSS for each page/screen

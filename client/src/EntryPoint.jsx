@@ -1,4 +1,4 @@
-import { NavBar,SideBar } from "./components";
+import { NavBar,SideBar } from "@/components";
 
 export const EntryPoint = () => {
     

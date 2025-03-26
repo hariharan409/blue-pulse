@@ -1,0 +1,10 @@
+@use "@/styles/variables" as *;
+
+.nav-bar-root-container {
+    width: 100%;
+    height: 60px;
+    background-color: $primary-color;
+    display: flex;
+    align-items: center;
+    padding-inline: 10px;
+}

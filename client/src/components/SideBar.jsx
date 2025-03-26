@@ -3,7 +3,7 @@ import {Sidebar,Menu,SubMenu,MenuItem} from "react-pro-sidebar";
 const SideBar = () => {
 
     return(
-        <aside style={{height: "100%",width: "340px",backgroundColor: "#050816",overflowX: "hidden",overflowY: "auto"}}>
+        <aside className="sidebar-root-container">
             <Sidebar style={{width: "100%"}}>
                 <Menu style={{backgroundColor: "#100d25",color: "#FFF"}}>
                     <SubMenu label="Teams" style={{borderBottom: "5px solid #050816"}}>

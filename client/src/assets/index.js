@@ -1,4 +1,4 @@
-import opscareLogo from "./ops-care-logo.png";
+import opscareLogo from "@/assets/ops-care-logo.png";
 
 export{
     opscareLogo
