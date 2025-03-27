@@ -3,6 +3,7 @@ const menuService = require("@/services/menu.service");
 
 exports.getSideBarMenu = async(request,response) => {
     try {
+        console.log(request.user);
         await menuService.getSideBarMenu();
         sendResponse(response,200,true,"success","i am the data");
     } catch (error) {

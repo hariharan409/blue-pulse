@@ -25,3 +25,7 @@ app.use("/web-service",mainRouter);
 app.listen(PORT,() => {
     console.log(`blue pulse server running on port ${PORT}`);
 });
+
+const crypto = require('crypto');
+const jwtSecret = crypto.randomBytes(64).toString('hex');
+console.log(jwtSecret);
